@@ -51,7 +51,7 @@ function increaseTime() {
     let s = seconds % 60
     m = m < 10 ? `0${m}` : m
     s = s < 10 ? `0${s}` : s
-    timeEl.innerHTML = `Time: ${m}:${s}`
+    timeEl.innerHTML = `Czas: ${m}:${s}`
     seconds++
 }
 
@@ -62,5 +62,5 @@ function increaseScore() {
     {
         message.classList.add('visible')
     }
-    scoreEl.innerHTML = `Score: ${score}`
+    scoreEl.innerHTML = `Wynik: ${score}`
 }
