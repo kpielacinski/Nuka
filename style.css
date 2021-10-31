@@ -105,7 +105,8 @@ h1 {
 }
 
 .score {
-  right: 20px;
+  top: 60px;
+  left: 25px;
 }
 
 .message {
