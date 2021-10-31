@@ -3,7 +3,6 @@ const game_container = document.getElementById('game-container')
 const start_btn = document.getElementById('start-btn')
 const timeEl = document.getElementById('time')
 const scoreEl = document.getElementById('score')
-const message = document.getElementById('message')
 const play_again_btn = document.getElementById('play-again-btn')
 const score_end = document.getElementById('score-end')
 const time_end = document.getElementById('time-end')
@@ -88,10 +87,6 @@ function spawnInsects() {
 function increaseScore() {
     score++
 
-    if(score > 19)
-    {
-        message.classList.add('visible')
-    }
     scoreEl.innerHTML = `Wynik: ${score}`
 }
 
